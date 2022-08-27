@@ -1,0 +1,51 @@
+body {
+  background-color: #d1b043 !important;
+}
+nav {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+  background-color: #9f8329 !important;
+}
+.card {
+  background-color: #f57542;
+  box-shadow: 20px 20px 20px #934222;
+  width: 30rem;
+  border-radius: 0px 20px !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+hr {
+  border-top: 3px solid white !important;
+}
+
+.sm-box {
+  border: 2px solid white;
+  background-color: rgb(18, 222, 130);
+  border-radius: 10px;
+}
+input {
+  border: none;
+  outline: none;
+}
+@media (min-width: 800px) {
+  form {
+    padding-right: 25rem !important;
+  }
+}
+@media (max-width: 500px) {
+  .card {
+    background-color: #f57542;
+    box-shadow: 20px 20px 20px #934222;
+    width: 24rem;
+    border-radius: 0px 20px !important;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+@media (max-width: 400px) {
+  .card {
+    background-color: #f57542;
+    box-shadow: 20px 20px 20px #934222;
+    width: 18rem;
+    border-radius: 0px 20px !important;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
